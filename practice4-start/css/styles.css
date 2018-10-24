@@ -1,0 +1,47 @@
+h1 {
+	font-size: 48px;
+}
+.post-heading {
+	color: #006633;
+	font-size: 1.8em;
+	text-align: center;
+}
+#main-nav	{
+	font-size: 1.3em;
+
+}
+blockquote	{
+	color: #33ccff;
+	font-size: 1.3em;
+	font-style: italic;
+}
+
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: underline;
+}
+a:active{
+	text-decoration: underline;
+}
+a:focus{
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration: underline;
+}
+p {
+	text-align: justify;
+	text-indent: 25px;
+}
+.hero-image {
+	float: left;
+	width: 640px;
+}
+
+.article-thumbs {
+	text-align: center;
+	clear: both;
+
+}
