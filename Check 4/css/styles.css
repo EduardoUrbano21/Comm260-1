@@ -1,0 +1,246 @@
+#SoccerStop {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  max-height: 100%;
+  font-family:Sans-serif;
+  line-height: 1.5em;
+}
+
+main {
+  position: fixed;
+  left: 230px; /* Width of the nav bar */
+  bottom: 100px; /* Set this to the height of the footer */
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  background: #fff;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  position: relative;
+  line-height: 50px;
+  letter-spacing: normal;
+  text-align: center;
+  display: block;
+  margin-left: 250px;
+  margin-right: 250px;
+    color: #555;
+}
+.title{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: inherit;
+  text-decoration: underline;
+}
+h4{
+  text-align: center;
+  line-height: 0px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+#tab{
+  float:left;
+   width:100%;
+   background:#fff;
+   border-bottom:4px solid #000;
+   overflow:hidden;
+   position:relative;
+}
+
+#nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 230px;
+  overflow: auto;
+  background: #A9A9A9
+
+}
+
+footer {
+
+  font-family: fantasy;
+  position: absolute;
+  left: 230px;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background: #fff;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.footer-text{
+  width: 100%;
+  font-size: 20px;
+text-align: center;
+margin-left: 0px;
+margin-right: 25px;
+line-height: -2px;
+}
+#footerpic{
+text-align: left;
+margin-bottom: 20px;
+margin-top: 20px;
+
+}
+
+#logo {
+  padding:-2px;
+}
+
+.innertube {
+  margin: 0px;
+}
+
+#sidebar {
+  padding-top: 150px;
+  font-family: monospace;
+  position: fixed;
+  font-size: 20px;
+  height: 100%;
+  line-height: 35px;
+
+
+}
+nav ul a:hover{
+  color: #f1f1f1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 2;
+  padding: 2;
+  text-align: center;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+}
+
+* html body{
+  padding: 0 0 100px 230px;
+}
+
+* html main{
+  height: 100%;
+  width: 100%;
+}
+div{
+  display: block;
+}
+#tab ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#tab ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#tab ul li a {
+   display:block;
+   margin:1px 0 0 15px;
+   padding:12px 15px;
+   background:#E5A8A8;
+   color:#000;
+   text-decoration:none;
+   line-height:1.3em;
+}
+#tab ul li a:hover {
+   background:#dddd;
+   color:#fff;
+}
+#tab ul li a.active,
+#tab ul li a.active:hover {
+   color:#fff;
+   background:#000;
+   font-weight:bold;
+}
+.slider-holder  {
+            width: 850px;
+            height: 400px;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .image-holder
+        {
+            width: 2400px;
+            background-color: white;
+            height: 400px;
+            clear: both;
+            position: relative;
+
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: black;
+        }
