@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    line-height: 1.4rem;
+}
+img {
+	width: 100%;
+    max-width: 100%;
+}
+
+footer {
+    margin: 4rem 0rem;
+    padding: 2rem 0rem;
+    border-top: 1px solid #ccc;
+    font-size: .8rem;
+}
+body{
+	font-family: 'Slabo 27px', serif;
+}
+#tracy{
+	text-align: left;
+	display: block;
+
+}
+#kids1{
+	float: left;
+	width: 400px;
+	margin: 0px 15px 15px 0px;
+}
+#welcome{
+	text-align: right;
+	text-decoration: underline;
+	display: block;
+
+}
+#first{
+	text-align: right;
+	display: grid;
+	margin: 0px 15px 15px 0px;
+}
+#henry{
+	text-align: center;
+	text-decoration: underline;
+}
+.henry1 a{
+
+display: table-cell;
+text-align: center;
+width: 15%;
+}
+.henry1 img{
+  width: 275px;
+
+}
+#charlie{
+	text-align: center;
+	text-decoration: underline;
+}
+.charlie1 a{
+
+display: table-cell;
+text-align: center;
+width: 5%;
+}
+.charlie1 img{
+  width: 225px;
+
+}
+
+blockquote{
+	text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #333;
+}
