@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Week 4</title>
+</head>
+<body>
+
+    <div id="Intro" style=" width: 25%; color: dimgray; background-color: lemonchiffon; border: 5px solid gray;">
+        <h1 style=" margin-left: 60px;">Speaker Submission</h1>
+        <h4 style=" margin-left: 60px;">Want to speak at our fake conference?</h4>
+        <h4 style=" margin-left: 130px;">Fill out this form.</h4>
+    </div>
+    
+    <br />
+    <br />
+    
+    <table style="width:25%; text-align: center; color: dimgray; background-color: lemonchiffon; border: 5px solid gray;">
+        <tr><td>Name</td><td><input id="Name" type="text" /></td><td></td></tr>
+        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>Email</td><td><input id="Email" type="text" placeholder="you@email.com" /></td><td></td></tr>
+        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>Type of Talk</td><td><input id="Radio1" type="radio" /> Main Stage <input id="Radio2" type="radio" /> Workshop </td><td></td></tr>
+        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr>
+            <td>T-Shirt Size</td>
+            <td>
+                <input id="Size" type="text" list="sizes" /> <datalist id="sizes">
+                    <option>Extra Small</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>Extra Large</option>
+                </datalist>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>Abstract</td><td><textarea id="TextArea1" rows="7" cols="30"></textarea></td><td></td></tr>
+        <tr><td>&nbsp;</td><td style="font-size: 10px;">Describe your talk in 500 words or less</td><td>&nbsp;</td></tr>
+        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>&nbsp;</td><td><input id="Checkbox1" type="checkbox" /> I'm actually avaiable the day of the talk</td><td>&nbsp;</td></tr>
+        <tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td>&nbsp;</td><td><input id="Submit1" style="width: 110px; height: 40px; margin-right: 50px; background-color: cadetblue; color: white;" type="submit" value="Submit" /></td><td></td></tr>
+
+    </table>
+
+    
+</body>
+</html>
