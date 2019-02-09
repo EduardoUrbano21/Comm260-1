@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        table, tr, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        .headers{
+            padding: 15px;
+            text-align: center;
+            background-color: cornflowerblue;
+            color: white;
+            font-weight: bold;
+        }
+        .grey{
+            background-color: lightgray;
+        }
+        h3{
+            text-align:left;
+
+        }
+    </style>
+
+</head>
+<body>
+    <h3>Student Data sorted by Major</h3>
+    <table style="width:60%; ">
+        <tr><td class="headers">Major</td><td class="headers">Student Name</td><td class="headers">Class</td><td class="headers">Home State</td></tr>
+        <tr><td class="grey" style="text-align: left; padding: 0px 8px 15px 8px;" rowspan="2">Communication</td><td> Ash, Alice</td><td> Sophmore</td><td> ND</td></tr>
+        <tr><td class="grey"> Smith, Paul</td><td class="grey">Senior</td><td class="grey"> MN</td></tr>
+        <tr><td style="padding: 8px;">Computer Sci</td><td> Campbell, Butch</td><td> Junior</td><td>ND</td></tr>
+    </table>
+</body>
+</html>
