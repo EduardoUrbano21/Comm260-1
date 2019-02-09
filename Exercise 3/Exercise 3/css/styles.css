@@ -1,0 +1,78 @@
+body{
+    background-color: tan;
+}
+#paragrapgh{
+    font-family: 'Coiny', cursive;
+    font-size: 20px;
+}
+#title{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    text-decoration: underline;
+    width: calc(100% - 75px);
+    background-color: salmon;
+}
+#breakfast{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    width: calc(100% - 75px);
+}
+#lunch{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    width: calc(100% - 75px);
+}
+#dinner{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    width: calc(100% - 75px);
+}
+#mission{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    width: calc(100% - 75px);
+}
+p{
+    text-align: center;
+}
+ul{
+    font-family: 'Coiny', cursive;
+    display: block;
+    text-align: center;
+    list-style: inside;
+}
+li a:hover{
+    background-color: aquamarine;
+}
+#tips{
+    font-family: 'Coiny', cursive;
+    font-style: italic;
+}
+#lstPara{
+    font-style: italic;
+    font-size: 20px;
+}
+#video{
+    text-align: center;
+}
+#lunchSpecial{
+    font-family: 'Coiny', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+#myVideo{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.3;
+}
+.dinnerPage{
+    position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
