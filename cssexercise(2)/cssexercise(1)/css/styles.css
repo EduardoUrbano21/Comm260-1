@@ -1,0 +1,43 @@
+body{
+    background-color: darkgrey;
+}
+#title{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    text-decoration: underline;
+    width: calc(100% - 75px);
+}
+#breakfast{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    width: calc(100% - 75px);
+}
+#lunch{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    width: calc(100% - 75px);
+}
+#dinner{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    width: calc(100% - 75px);
+}
+#mission{
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    width: calc(100% - 75px);
+}
+p{
+    text-align: center;
+}
+ul{
+    display: block;
+    text-align: center;
+    list-style: inside;
+}
+li a:hover{
+    background-color: aquamarine;
+}
+#lstPara{
+    font-style: italic;
+}
