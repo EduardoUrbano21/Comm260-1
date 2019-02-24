@@ -39,30 +39,43 @@
     </div>
     <br>
 		</main>
+		<div id="mySidebar" class="sidebar">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<a href="PersonalWebsite.html">Home</a>
+				<a href="Brands.html">Brands</a>
+				<a href="Sale.html">On Sale</a>
+				<a href="Contact.html">Contact</a>
+		</div>
+              
+			
+			<div id="main">
+				<button class="openbtn" onclick="openNav()">☰ MENU</button>  
+				
+			</div>
+			
+			<script>
+			function openNav() {
+				document.getElementById("mySidebar").style.width = "250px";
+				document.getElementById("main").style.marginLeft = "250px";
+			}
+			
+			function closeNav() {
+				document.getElementById("mySidebar").style.width = "0";
+				document.getElementById("main").style.marginLeft= "0";
+			}
+			</script>
 
 
-		<nav id="nav">
-
-				<h1><input type="text" placeholder="Search.."></h1>
-				<ul id="sidebar">
-					<li><a href="Nike.html">NIKE</a></li>
-					<li><a href="Adidas.html">ADIDAS</a></li>
-					<li><a href="UA.html">UNDER ARMOUR</a></li>
-					<li><a href="NB.html">NEW BALANCE</a></li>
-					<li><a href="Puma.html">PUMA</a></li>
-				</ul>
-
-		</nav>
-
-		<footer>
+	<footer>
 			<div id="footerpic">
-				<h1><img src="images/socialmedia.png" alt="SocialMedia" width="100px" ></h1>
+				<h1 style="text-align: center; margin-right: 295px;"><img src="images/socialmedia.png" alt="SocialMedia" width="100px" height="30px"></h1>
 			<div id="logo">
-				<h1 class="footer-text"></h1>
+			
 			</div>
 			</div>
 
 		</footer>
+
 
 	</body>
 </html>
