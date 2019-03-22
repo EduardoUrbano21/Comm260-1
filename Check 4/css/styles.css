@@ -283,7 +283,7 @@ button{
 .video-container {
   position: relative;
   text-align: center;
-  padding-bottom: 30%;
+  padding-bottom: 20%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
@@ -295,7 +295,7 @@ button{
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 55%;
   }
 
 @media screen and (max-width: 1060px) {
@@ -329,12 +329,31 @@ button{
 .item5 { grid-area: footer; }
 
 .grid-container {
-  display: grid;
+  display: -moz-grid-group;
   grid-template-areas:
     'header header header header header header'
-    'menu main main main right right'
+    'menu main main main main main'
     'menu footer footer footer footer footer';
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
 }
-.grid-container > div {
-  text-align: center;
+
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
