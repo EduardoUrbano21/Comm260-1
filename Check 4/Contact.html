@@ -8,6 +8,7 @@
 		<link rel="icon" href="favicon.png" type="images/favicon.png">
 		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 		<style>
 
@@ -63,8 +64,10 @@
         <h1 style="text-align: center; text-decoration: underline;">Newsletter Sign-up</h1>
         <p>Sign-up for our monthly newsletter that will include many special deals and exclsuive coupons for purchases on cleats.
             Not only will we provide discounts, but early looks at new cleats and soccer cleats and speical soccer ball giveaways!</p>
-            <p>Hurry and sign up now!</p>
-    <table align="center";>
+			<p>Hurry and sign up now!</p>
+
+	<p id="tbl">
+    <table class="newsletter" align="center";>
     <tr>
         <td>First Name: <input type="text" name="fname"></td>
     </tr>
@@ -75,9 +78,10 @@
         <td>Email: <input type="email" name="email" placeholder="abc@email.com"></td>
     </tr>
     <tr>
-    <td><button type="button">SUBSCRIBE</button></td>
+    <td><button id="btn" type="button">SUBSCRIBE</button></td>
     </tr>
 </table>
+</p>
    <br/>
     <br/>
     <br/>
@@ -112,12 +116,28 @@
 				document.getElementById("mySidebar").style.width = "0";
 				document.getElementById("main").style.marginLeft= "0";
 			}
+
+			$(document).ready(function(){
+  $("#btn").click(function(){
+    $(".newsletter").hide(1000);
+    alert("You have now subscribed to our newsletter");
+  });
+});
+
+	function myFunction(){
+		document.getElementById("#tbl").reset();
+	}
+
 			</script>
 
 
 <footer>
 	<div id="footerpic">
-		<h1><img src="images/socialmedia.png" alt="SocialMedia" width="100px" height="30px"></h1>
+		<h1>
+			<a href="http://www.facebook.com"><img src="images/facebook.png" alt="SocialMedia" width="30px" height="37px"></a>
+			<a href="http://www.twitter.com"><img src="images/twitter.png" alt="SocialMedia" width="30px" height="37px"></a>
+			<a href="http://www.instagram.com"><img src="images/instagram.png" alt="SocialMedia" width="30px" height="37px"></a>
+		</h1>
 	<div id="logo">
 	
 	</div>
